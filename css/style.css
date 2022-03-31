@@ -1,0 +1,122 @@
+.color-azul{
+    color: blue;
+}
+.color-azullila{
+    color: blueviolet;
+}
+.color-azulclaro{
+    color: lightblue;
+}
+.letraGrande{
+    font-size: xx-large;
+}
+.para-bebas{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+}
+.para-yanone{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.parrafoUno{
+    text-align: right;
+}
+.título{
+    text-align: center;
+    line-height: 30px;
+}
+#pie{
+    background-color: lightblue;
+    opacity: 0,2;
+}
+.barra-anton{
+    font-family: 'Anton', sans-serif;
+}
+.redes-staatliches{
+    font-family: 'Staatliches', cursive;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 6px;
+    margin: 0 20px;
+}
+header img{
+    margin: 10px 0 12px 10px;
+}
+.conteiner-links{
+    border: 2px solid rgb(236, 236, 245);
+    text-decoration: none;
+    font-size: 16px;
+}
+.main-texto{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+nav ul li{
+    list-style: georgian;
+    color: black;
+}
+.section-abajo{
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 25px;
+}
+.ultimo-p{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+header nav ul li img{
+    max-width:  80px;
+    max-height: 80px;
+}
+div img{
+    max-width: 400px;
+    max-height: 400px;
+}
+.color-blanco{
+    color: white;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+  }
+  .three {
+    grid-column: 1;
+    grid-row: 2 / 5;
+  }
+  .flex-container {
+    display: flex;
+    background-color: grey;
+  }
+  .flex-item {
+    background-color: white;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+  }
+  nav{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+  .grid{
+      display: grid;
+      grid-template-columns: 3fr;
+  }
+  .grid2{
+      display: grid;
+      grid-row: 1 / 4;
+  }
